@@ -1,0 +1,16 @@
+{
+    "port": 8000,
+    "requests": [{
+            "url": "/",
+            "readsFile": false,
+            "headers": { "Content-Type": "text/html" },
+            "return": "<html>DynamoHTTP Default Page</html>"
+        },
+        {
+            "url": "/index.html",
+            "readsFile": true,
+            "headers": { "Content-Type": "text/html" },
+            "return": "./index.html"
+        }
+    ]
+}

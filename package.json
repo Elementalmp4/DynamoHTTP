@@ -1,0 +1,14 @@
+{
+    "name": "dynamohttp",
+    "version": "1.0.0",
+    "description": "a dynamic, lightweight http server",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "http"
+    ],
+    "author": "ElementalMP4",
+    "license": "ISC"
+}
