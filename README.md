@@ -6,7 +6,7 @@ A simple, lightweight, customisable web host written in Node.JS
 
 to use `DynamoHTTP` you will need to set up a `config.json` file. This short explanation should help you get started:
 
-```json
+```js
 {
     "port": 8000, //The HTTP port to use
     "requests": [
